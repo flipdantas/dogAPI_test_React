@@ -37,7 +37,7 @@ const App: React.FC = () => {
         <h4>Veja aqui todos os cães convidados para a K-9 Fest</h4>
         <button onClick={handleSortImage}>Veja o Dog</button>
       </div>
-      {isLoad? (<LoaderContent />) : (<img src={photo} alt='dog'/> )}
+      {isLoad? (<LoaderContent />) : (<img src={photo} alt='dog' width='500' height='600'/> )}
     </Container>
   );
 }
